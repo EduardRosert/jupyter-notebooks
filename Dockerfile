@@ -2,7 +2,7 @@
 # see https://mybinder.readthedocs.io/en/latest/tutorials/dockerfile.html
 
 # base image is magics with magics python
-FROM eduardrosert/magics:version-4.2.0
+FROM ecmwf/magics:4.10.0
 
 # Install Python run-time dependencies.
 COPY requirements.txt /root/
