@@ -1,5 +1,5 @@
 # pip requirements file
-notebook==5.*
+notebook>=5.*
 xarray==0.14.1
 cfgrib==0.9.7.3
 ecmwf-api-client==1.5.4
